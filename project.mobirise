@@ -1,0 +1,153 @@
+{
+  "settings": {
+    "name": "Shiny Glass Hover Effect (Glassmorphism)",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Jost",
+        "display1Size": 4.6,
+        "display2Font": "Jost",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Jost",
+        "display7Size": 1.2,
+        "display4Font": "Jost",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.2.6",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
+    "chatbutton": {},
+    "favicon": false,
+    "mbrsiteDomain": "4rk4s8rmob",
+    "imageResize": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false,
+    "uniqCompNum": 2,
+    "versionPublish": "5.2.6"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Shiny Glass Hover Effect (Glassmorphism)",
+        "meta_descr": "Shiny Glass Hover Effect (Glassmorphism)",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "@foreground-color": "white",
+            "@size": "6rem",
+            "@transition-duration": "500ms",
+            "@transition-easing": "ease-out",
+            "padding": "0",
+            "margin": "0",
+            "box-sizing": "border-box",
+            "overflow": "hidden",
+            "main": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "min-height": "100vh",
+              "background": "linear-gradient(322deg, #ba4aff, rgba(186, 74, 255, 0) 70%), linear-gradient(178deg, #008aff, rgba(0, 138, 255, 0) 70%), linear-gradient(24deg, #00ffc6, rgba(0, 255, 198, 0) 35%)"
+            },
+            ".ruler": {
+              "border-top": "1px solid rgba(255, 255, 255, 0.3)",
+              "background-color": "rgba(255, 255, 255, 0.05)",
+              "position": "absolute",
+              "top": "50%",
+              "height": "50%",
+              "left": "0%",
+              "right": "0%"
+            },
+            ".container": {
+              "display": "grid",
+              "gap": "1.25rem",
+              "grid-template-columns": "repeat(5, 1fr)",
+              "width": "auto"
+            },
+            ".container .icon": {
+              "width": "@size",
+              "height": "@size",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "text-decoration": "none",
+              "color": "@foreground-color",
+              "font-size": "2rem",
+              "border": "1px solid rgba(255, 255, 255, 0.6)",
+              "background-color": "rgba(255, 255, 255, 0.1)",
+              "backdrop-filter": "blur(2px)",
+              "border-radius": "0.5rem",
+              "box-shadow": "0px calc(@size / 6) calc(@size / 3) rgba(0, 0, 0, 0.1)",
+              "transition": "transform @transition-duration @transition-easing",
+              "overflow": "hidden"
+            },
+            ".container .icon::before": {
+              "content": "\"\"",
+              "background": "rgba(255, 255, 255, 0.4)",
+              "width": "60%",
+              "height": "100%",
+              "top": "0%",
+              "left": "-125%",
+              "transform": "skew(45deg)",
+              "position": "absolute",
+              "transition": "left @transition-duration @transition-easing"
+            },
+            ".container .icon:hover": {
+              "transform": "translateY(-25%)"
+            },
+            ".container .icon:hover::before": {
+              "left": "150%"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section>\n    <main>\n  <div class=\"ruler\"></div>\n  <div class=\"container\">\n      <a class=\"icon\" href=\"#\"><i class=\"fas fa-phone\"></i></a>\n      <a class=\"icon\" href=\"#\"><i class=\"fas fa-images\"></i></a>\n      <a class=\"icon\" href=\"#\"><i class=\"fas fa-envelope-open\"></i></a>\n      <a class=\"icon\" href=\"#\"><i class=\"fas fa-comment\"></i></a>\n      <a class=\"icon\" href=\"#\"><i class=\"fas fa-music\"></i></a></div>\n        </main>\n</section>",
+          "_cid": "snblEP9p3c",
+          "_anchor": "content4-0",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
